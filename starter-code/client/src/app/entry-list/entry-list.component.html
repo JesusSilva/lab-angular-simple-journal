@@ -1,0 +1,7 @@
+<div *ngFor="let entrie of entriesList">
+  <ul>
+    <li>
+      <a [routerLink]="['/' + entrie._id]">{{entrie.title}} - {{entrie.date}}</a> 
+    </li>  
+  </ul>
+</div>
